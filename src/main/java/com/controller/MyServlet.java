@@ -28,7 +28,7 @@ public class MyServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	String name = request.getParameter("name");
 	PrintWriter out = response.getWriter();
-	out.println("<h3>Welcome "+name);
+	out.println("Welcome "+name);
 	
 	
 	}
